@@ -1,0 +1,18 @@
+{
+	"extensions": {
+		"recommendations": [
+			"dbaeumer.vscode-eslint",
+			"yzhang.markdown-all-in-one"
+		]
+	},
+	"settings": {
+		"editor.autoClosingQuotes": "always",
+		"editor.quickSuggestions": {
+    	"strings": true
+		},
+		"eslint.validate": [
+			"javascript",
+			"typescript",
+		]
+	}
+}

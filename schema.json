@@ -1,0 +1,34 @@
+{
+  "type": "array",
+  "items": {
+    "additionalProperties": false,
+    "properties": {
+      "aliases": {
+        "items": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "type": "array"
+      },
+      "color": {
+        "pattern": "^(\\d|[a-f]){6}$",
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "name": {
+        "minLength": 1,
+        "type": "string"
+      }
+    },
+    "required": [
+      "color",
+      "description",
+      "name"
+    ],
+    "type": "object"
+  },
+  "uniqueItemProperties": ["name"],
+  "uniqueItems": true
+}

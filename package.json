@@ -1,0 +1,42 @@
+{
+  "name": "@spear-ai/github-labels",
+  "version": "1.0.0",
+  "description": "Spear AI GitHub labels",
+  "keywords": [
+    "Spear",
+    "ai",
+    "GitHub",
+    "labels"
+  ],
+  "license": "MIT",
+  "author": "Spear AI",
+  "main": "labels.json",
+  "repository": "github:spear-ai/github-labels",
+  "scripts": {
+    "check": "yarn run lint",
+    "ci": "act --container-architecture=linux/amd64 --platform=ubuntu-latest=ghcr.io/catthehacker/ubuntu:js-latest",
+    "lint": "npmPkgJsonLint .",
+    "lint:package": "npmPkgJsonLint .",
+    "outdated": "yarn outdated",
+    "prepare": "husky install",
+    "sync": "github-label-sync --allow-added-labels",
+    "sync:dry-run": "github-label-sync --allow-added-labels --dry-run",
+    "update": "yarn run update:js && yarn run update:yarn",
+    "update:js": "yarn upgrade-interactive --latest",
+    "update:yarn": "yarn policies set-version",
+    "validate": "ajv validate -c ajv-keywords -d labels.json -s schema.json"
+  },
+  "dependencies": {
+    "github-label-sync": "2.0.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "16.1.0",
+    "@commitlint/config-conventional": "16.0.0",
+    "ajv": "8.9.0",
+    "ajv-cli": "5.0.0",
+    "ajv-keywords": "5.1.0",
+    "husky": "7.0.4",
+    "npm-package-json-lint": "5.4.2",
+    "npm-package-json-lint-config-default": "3.0.0"
+  }
+}

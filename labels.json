@@ -1,0 +1,272 @@
+[
+  {
+    "name": "scope: <example 1>",
+    "description": "The scope (package, module, etc.) affected",
+    "color": "e3d0d8"
+  },
+  {
+    "name": "scope: <example 2>",
+    "description": "The scope (package, module, etc.) affected",
+    "color": "e3d0d8"
+  },
+  {
+    "name": "⚠️ attention: critical",
+    "description": "Requires immediate attention (e.g. Customer facing problem)",
+    "color": "cc0003",
+    "aliases": ["critical", "priority: critical"]
+  },
+  {
+    "name": "⚠️ attention: urgent",
+    "description": "Requires attention (e.g. Developer facing problem)",
+    "color": "cc0003",
+    "aliases": ["priority: high"]
+  },
+  {
+    "name": "⚠️ breaking change",
+    "description": "Requires major version bump or customer notice",
+    "color": "eb4758",
+    "aliases": [
+      "breaking",
+      "breaking-change",
+			"type: breaking"
+    ]
+  },
+  {
+    "name": "⚠️ caution!",
+    "description": "Requires caution! (e.g. service disruption, data loss)",
+    "color": "eb4758"
+  },
+  {
+    "name": "❗ bug",
+    "description": "Something is broken",
+    "color": "ffffff",
+    "aliases": ["bug"]
+  },
+  {
+    "name": "❗ security",
+    "description": "Something is vulnerable",
+    "color": "ffffff",
+    "aliases": ["security"]
+  },
+  {
+    "name": "🌈 productivity",
+    "description": "Increases developer productivity (e.g. automation)",
+    "color": "0049f5",
+    "aliases": [
+      "maintenance",
+      "refactor",
+      "test",
+      "testing"
+    ]
+  },
+  {
+    "name": "🌋 technical debt",
+    "description": "Hidden cost that compounds over time (e.g. quick fix, old dependency)",
+    "color": "ffffff",
+    "aliases": [
+      "maintenance",
+      "refactor",
+      "test",
+      "testing"
+    ]
+  },
+  {
+    "name": "🚀 documentation",
+    "color": "018e43",
+    "description": "Enhances product with documentation",
+    "aliases": [
+      "documentation",
+      "type: documentation"
+    ]
+  },
+  {
+    "name": "🚀 feature",
+    "color": "018e43",
+    "description": "Enhances product with feature",
+    "aliases": [
+      "enhancement",
+      "feature"
+    ]
+  },
+  {
+    "name": "🚀 performance",
+    "color": "018e43",
+    "description": "Enhances product performance",
+    "aliases": ["perf", "performance"]
+  },
+  {
+    "name": "🚀 update",
+    "color": "018e43",
+    "description": "Enhances product with updates",
+    "aliases": [
+      "dependencies",
+      "updates"
+    ]
+  },
+  {
+    "name": "🚥 status: awaiting merge",
+    "description": "Is awaiting merge (prefer auto-merge on small projects)",
+    "color": "1b4b25"
+  },
+  {
+    "name": "🚥 status: awaiting review",
+    "description": "Is awaiting review",
+    "color": "266934"
+  },
+  {
+    "name": "🚥 status: blocked",
+    "description": "Won’t progress further because it’s blocked by something else",
+    "color": "433743",
+		"aliases": [
+			"blocked",
+			"status: blocked"
+		]
+  },
+  {
+    "name": "🚥 status: can’t reproduce",
+    "description": "Won’t progress further until it can be reproduced",
+    "color": "433743"
+  },
+  {
+    "name": "🚥 status: help",
+    "description": "Won’t progress further without help",
+    "color": "433743",
+		"aliases": [
+			"help wanted",
+			"status: help wanted"
+		]
+  },
+  {
+    "name": "🚥 status: in progress",
+    "description": "Is in progress",
+    "color": "318743"
+  },
+	{
+		"name": "🚥 status: needs docs!",
+		"description": "Won’t progress further without documentation",
+		"color": "655365"
+	},
+	{
+		"name": "🚥 status: needs tests!",
+		"description": "Won’t progress further without tests",
+		"color": "655365"
+	},
+	{
+		"name": "🚦 status: done",
+		"description": "Was completed",
+		"color": "3772ff"
+	},
+	{
+		"name": "🚦 status: duplicate",
+		"description": "Was completed",
+		"color": "221c22",
+		"aliases": [
+			"duplicate",
+			"status: duplicate"
+		]
+	},
+	{
+		"name": "🚦 status: invalid",
+		"description": "Won’t progress further because it’s invalid (e.g. works as intended)",
+		"color": "221c22"
+	},
+	{
+		"name": "🚦 status: stale",
+		"description": "Won’t progress further because it’s invalid (e.g. works as intended)",
+		"color": "221c22"
+	},
+	{
+		"name": "🚦 status: too big",
+		"description": "Won’t progress further because it's too big (e.g. should break into parts)",
+		"color": "221c22"
+	},
+	{
+		"name": "🚦 status: won’t",
+		"description": "Won’t progress further for reasons (e.g. out of scope)",
+		"color": "221c22",
+		"aliases": [
+      "wont-fix",
+      "wontfix",
+			"status: wontfix"
+		]
+	},
+	{
+		"name": "🚧 experiment",
+		"description": "Just an experiment",
+		"color": "ffffff"
+	},
+  {
+    "name": "🚫 complexity: *",
+    "description": "Use GitHub Projects instead",
+    "color": "feffa5",
+    "aliases": [
+			"complexity: 1",
+			"complexity: 2",
+			"complexity: 3",
+			"complexity: 4",
+			"complexity: 5",
+			"complexity: 6",
+			"complexity: 7",
+			"complexity: low",
+			"complexity: medium",
+			"complexity: high",
+			"effort: 1",
+			"effort: 2",
+			"effort: 3",
+			"effort: 4",
+			"effort: 5",
+			"effort: 6",
+			"effort: 7",
+			"effort: low",
+			"effort: medium",
+			"effort: high"
+		]
+  },
+  {
+    "name": "🚫 impact: *",
+    "description": "Use GitHub Projects instead",
+    "color": "feffa5",
+    "aliases": [
+			"impact: 1",
+			"impact: 2",
+			"impact: 3",
+			"impact: 4",
+			"impact: 5",
+			"impact: 6",
+			"impact: 7",
+			"impact: low",
+			"impact: medium",
+			"impact: high",
+			"value: 1",
+			"value: 2",
+			"value: 3",
+			"value: 4",
+			"value: 5",
+			"value: 6",
+			"value: 7",
+			"value: low",
+			"value: medium",
+			"value: high"
+		]
+  },
+  {
+    "name": "🚫 discussion",
+    "description": "Use GitHub Discussions instead",
+    "color": "feffa5",
+    "aliases": [
+			"discussion",
+			"type: dicussion",
+			"type: question",
+      "question"
+    ]
+  },
+  {
+    "name": "🚫 priority: *",
+    "description": "Use GitHub Projects instead",
+    "color": "feffa5",
+    "aliases": [
+			"priority: low",
+			"priority: medium"
+		]
+  }
+]
