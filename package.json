@@ -21,6 +21,7 @@
     "prepare": "husky install",
     "sync": "github-label-sync --allow-added-labels",
     "sync:dry-run": "github-label-sync --allow-added-labels --dry-run",
+    "sync:init": "github-label-sync",
     "update": "yarn run update:js && yarn run update:yarn",
     "update:js": "yarn upgrade-interactive --latest",
     "update:yarn": "yarn policies set-version",

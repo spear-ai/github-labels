@@ -18,7 +18,7 @@
   {
     "name": "⚠️ attention: urgent",
     "description": "Requires attention (e.g. Developer facing problem)",
-    "color": "cc0003",
+    "color": "ff1f22",
     "aliases": ["priority: high"]
   },
   {
