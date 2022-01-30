@@ -14,6 +14,7 @@
   "repository": "github:spear-ai/github-labels",
   "scripts": {
     "check": "yarn run lint",
+    "ci": "act --container-architecture=linux/amd64 --platform=ubuntu-latest=ghcr.io/catthehacker/ubuntu:js-latest",
     "lint": "npmPkgJsonLint .",
     "lint:package": "npmPkgJsonLint .",
     "outdated": "yarn outdated",
