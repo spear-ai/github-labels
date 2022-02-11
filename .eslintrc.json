@@ -1,0 +1,10 @@
+{
+  "extends": ["plugin:jsonc/all"],
+  "rules": {
+    "jsonc/indent": [
+      "error",
+      2
+    ],
+    "jsonc/key-name-casing": ["off"]
+  }
+}

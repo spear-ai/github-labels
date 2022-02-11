@@ -1,5 +1,4 @@
 {
-  "type": "array",
   "items": {
     "additionalProperties": false,
     "properties": {
@@ -29,6 +28,7 @@
     ],
     "type": "object"
   },
+  "type": "array",
   "uniqueItemProperties": ["name"],
   "uniqueItems": true
 }
