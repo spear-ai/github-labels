@@ -6,4 +6,4 @@ updates:
       - "🚀 update"
       - "🌋 technical debt"
     schedule:
-      interval: "daily"
+      interval: "weekly"
