@@ -1,5 +1,8 @@
 name: checks
 on: [pull_request, push]
+concurrency: 
+  cancel-in-progress: true
+  group: ${{ github.ref }}
 jobs:
   check:
     runs-on: ubuntu-latest
