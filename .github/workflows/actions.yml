@@ -5,7 +5,7 @@ on:
   push:
     branches: 'main'
 jobs:
-  should_skip_check:
+  should_skip_check?:
     runs-on: ubuntu-latest
     outputs:
       result: ${{ steps.skip.outputs.should_skip }}
@@ -16,8 +16,8 @@ jobs:
           concurrent_skipping: 'outdated_runs'
           paths_ignore: '["license", "**.md", "**.code-workspace"]'
   check:
-    needs: should_skip_check
-    if: ${{ needs.should_skip_check.outputs.result != 'true' }}
+    needs: should_skip_check?
+    if: ${{ needs.should_skip_check?.outputs.result != 'true' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
