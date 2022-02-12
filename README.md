@@ -17,5 +17,3 @@ export GITHUB_ACCESS_TOKEN=<personal_access_token> # Optional
 yarn run sync:dry-run <repository>
 yarn run sync <repository>
 ```
-
-test
