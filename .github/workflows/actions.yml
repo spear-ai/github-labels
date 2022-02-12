@@ -13,7 +13,7 @@ jobs:
       - id: skip
         uses: fkirc/skip-duplicate-actions@master
         with:
-          concurrent_skipping: 'always'
+          concurrent_skipping: 'outdated_runs'
   check:
     needs: should_skip_check
     if: ${{ needs.should_skip_check.outputs.result != 'true' }}
