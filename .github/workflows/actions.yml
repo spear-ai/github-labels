@@ -1,5 +1,9 @@
 name: checks
-on: [pull_request, push]
+on:
+  pull_request:
+    types: ['opened', 'synchronize']
+  push:
+    branches: 'main'
 jobs:
   should_skip_check:
     runs-on: ubuntu-latest
