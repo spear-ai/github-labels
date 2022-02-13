@@ -11,4 +11,4 @@ jobs:
       - run: yarn run check
       - uses: JulienKode/pull-request-name-linter-action@master
         with:
-          configuration-path: 'commitlint.config.ts'
+          configuration-path: '.commitlintrc.json'
