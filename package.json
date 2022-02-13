@@ -20,6 +20,7 @@
     "lint:json": "eslint . --ext .json",
     "lint:package": "npmPkgJsonLint .",
     "outdated": "yarn outdated",
+    "postinstall": "husky install",
     "prepare": "husky install",
     "sync": "github-label-sync --allow-added-labels",
     "sync:dry-run": "github-label-sync --allow-added-labels --dry-run",
@@ -33,12 +34,12 @@
     "github-label-sync": "2.0.2"
   },
   "devDependencies": {
-    "@commitlint/cli": "16.1.0",
-    "@commitlint/config-conventional": "16.0.0",
+    "@commitlint/cli": "16.2.1",
+    "@commitlint/config-conventional": "16.2.1",
     "ajv": "8.10.0",
     "ajv-cli": "5.0.0",
     "ajv-keywords": "5.1.0",
-    "eslint": "8.8.0",
+    "eslint": "8.9.0",
     "eslint-plugin-jsonc": "2.1.0",
     "husky": "7.0.4",
     "npm-package-json-lint": "5.4.2",
