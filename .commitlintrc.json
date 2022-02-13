@@ -1,6 +1,3 @@
 {
-  "extends": ["@commitlint/config-conventional"],
-  "rules": {
-    "scope-enum": [2, "always", ["api", "ui"]]
-  }
+  "extends": ["@commitlint/config-conventional"]
 }
