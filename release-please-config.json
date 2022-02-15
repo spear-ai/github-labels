@@ -3,6 +3,7 @@
   "packages": {
     ".": {
       "changelog-path": "changelog.md",
+      "draft": true,
       "label": "🤖 auto-release: pending B",
       "pull-request-title-pattern": "chore: release v${version}",
       "releaseLabel": "🤖 auto-release: tagged C",
