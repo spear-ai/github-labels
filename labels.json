@@ -93,6 +93,18 @@
     "name": "🚀 documentation"
   },
   {
+    "aliases": ["autorelease: pending"],
+    "color": "ffffff",
+    "description": "Needs to be tagged with a release",
+    "name": "🤖 auto-release: pending"
+  },
+  {
+    "aliases": ["autorelease: tagged"],
+    "color": "ffffff",
+    "description": "Already tagged with a release",
+    "name": "🤖 auto-release: tagged"
+  },
+  {
     "aliases": [
       "enhancement",
       "feature"
