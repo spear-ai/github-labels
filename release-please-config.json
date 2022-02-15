@@ -4,9 +4,13 @@
   "packages": {
     ".": {
       "changelog-path": "changelog.md",
-      "label": "🤖 auto-release: pending",
-      "release-label": "🤖 auto-release: tagged",
+      "label": "🤖 auto-release: pending B",
+      "releaseLabel": "🤖 auto-release: tagged C",
+      "release-label": "🤖 auto-release: tagged A",
       "release-type": "node"
     }
-  }
+  },
+  "label": "🤖 auto-release: pending A",
+  "releaseLabel": "🤖 auto-release: tagged A",
+  "release-label": "🤖 auto-release: tagged B"
 }
