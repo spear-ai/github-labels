@@ -6,6 +6,8 @@
   "label": "🤖 auto-release: pending",
   "packages": {
     ".": {
+      "changelog-path": "changelogC.md",
+      "changelogPath": "changelogD.md",
       "release-type": "node"
     }
   },
