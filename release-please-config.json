@@ -2,6 +2,9 @@
   "packages": {
     ".": {
       "changelog-path": "changelog.md",
+       "label": "a2",
+       "releaseLabel": "b2",
+       "release-label": "c2",
       "labels": ["b"],
       "pull-request-title-pattern": "chore: release v${version}",
       "release-labels": ["c"],
@@ -9,7 +12,10 @@
       "release-type": "node"
     }
   },
+  "label": "a1",
   "labels": ["a"],
+  "releaseLabel": "b1",
+  "release-label": "c1",
   "releaseLabels": ["a"],
   "release-labels": ["b"]
 }
