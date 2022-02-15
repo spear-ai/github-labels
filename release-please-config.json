@@ -1,7 +1,8 @@
 {
   "packages": {
     ".": {
-      "changelogPath": "changelog.md",
+      "changelog-path": "changelogB.md",
+      "changelogPath": "changelogA.md",
       "draft": true,
       "releaseType": "node"
     }
