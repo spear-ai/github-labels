@@ -1,0 +1,9 @@
+{
+  "packages": {
+    ".": {
+      "changelogPath": "changelog.md",
+      "draft": true,
+      "releaseType": "node"
+    }
+  }
+}
