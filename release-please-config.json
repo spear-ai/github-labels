@@ -1,0 +1,8 @@
+{
+  "packages": {
+    ".": {
+      "changelog-path": "changelog.md",
+      "pull-request-title-pattern": "chore: release v${version}"
+    }
+  }
+}

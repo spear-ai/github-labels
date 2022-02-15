@@ -22,6 +22,7 @@
     "outdated": "yarn outdated",
     "postinstall": "husky install",
     "prepare": "husky install",
+    "release-please": "release-please",
     "sync": "github-label-sync --allow-added-labels",
     "sync:dry-run": "github-label-sync --allow-added-labels --dry-run",
     "sync:init": "github-label-sync",
@@ -43,6 +44,8 @@
     "eslint-plugin-jsonc": "2.1.0",
     "husky": "7.0.4",
     "npm-package-json-lint": "5.4.2",
-    "npm-package-json-lint-config-default": "3.0.0"
-  }
+    "npm-package-json-lint-config-default": "3.0.0",
+    "release-please": "13.4.9"
+  },
+  "private": true
 }
