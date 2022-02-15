@@ -3,14 +3,12 @@
   "draft-pull-request": true,
   "packages": {
     ".": {
-      "changelog-path": "changelog.md",
-      "draft": true,
-      "draft-pull-request": true,
-      "label": "🤖 auto-release: pending B",
-      "pull-request-title-pattern": "chore: release v${version}",
-      "releaseLabel": "🤖 auto-release: tagged C",
-      "release-label": "🤖 auto-release: tagged A",
-      "release-type": "node"
+      "draft": false,
+      "prerelease": false,
+      "bumpMinorPreMajor": false,
+      "bumpPatchForMinorPreMajor": false,
+      "changelogPath": "CHANGELOG.md",
+      "versioning": "default"
     }
   },
   "label": "🤖 auto-release: pending A",
