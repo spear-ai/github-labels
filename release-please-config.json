@@ -3,7 +3,11 @@
     ".": {
       "changelog-path": "changelog.md",
       "pull-request-title-pattern": "chore: release v${version}",
+      "release-labels": "c",
+      "releaseLabels": "d",
       "release-type": "node"
     }
-  }
+  },
+  "releaseLabels": "a",
+  "release-labels": "b"
 }
