@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: google-github-actions/release-please-action@v3
         with:
-          command: manifest
+          command: manifest-pr
           draft: true
           label: 'foo'
           monorepo-tags: true
