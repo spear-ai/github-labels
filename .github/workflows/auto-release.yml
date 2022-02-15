@@ -9,6 +9,7 @@ jobs:
       - uses: google-github-actions/release-please-action@v3
         with:
           command: manifest
+          draft: true
           label: 'foo'
           monorepo-tags: true
           release-label: 'bar'
