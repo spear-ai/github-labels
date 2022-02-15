@@ -1,5 +1,6 @@
 {
-  "changelog-path": "changelog.md",
+  "changelog-path": "changelogA.md",
+  "changelogPath": "changelogB.md",
   "draft": true,
   "group-pull-request-title-pattern": "chore: release ${version}",
   "label": "🤖 auto-release: pending",
