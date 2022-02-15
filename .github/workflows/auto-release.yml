@@ -1,21 +1,12 @@
-{
-  "draft": true,
-  "group-pull-request-title-pattern": "chore: release ${version} A",
-  "groupPullRequestTitlePattern": "chore: release ${version} B",
-  "packages": {
-    ".": {
-      "changelog-path": "changelog.md",
-      "label": "🤖 auto-release: pending B",
-      "releaseLabel": "🤖 auto-release: tagged C",
-      "release-label": "🤖 auto-release: tagged A",
-      "release-type": "node",
-      "pull-request-title-pattern": "chore: release ${version} E",
-      "pullRequestTitlePattern": "chore: release ${version} F"
-    }
-  },
-  "label": "🤖 auto-release: pending A",
-  "pull-request-title-pattern": "chore: release ${version} C",
-  "pullRequestTitlePattern": "chore: release ${version} D",
-  "releaseLabel": "🤖 auto-release: tagged A",
-  "release-label": "🤖 auto-release: tagged B"
-}
+@@ -1,11 +1,21 @@
+name: auto-release
+on:
+  push:
+    branches: main
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: google-github-actions/release-please-action@v3
+        with:
+          command: manifest
