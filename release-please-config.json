@@ -1,15 +1,12 @@
 {
-  "changelog-path": "changelogA.md",
-  "changelogPath": "changelogB.md",
   "draft": true,
   "group-pull-request-title-pattern": "chore: release ${version}",
-  "label": "🤖 auto-release: pending",
   "packages": {
     ".": {
-      "changelog-path": "changelogC.md",
-      "changelogPath": "changelogD.md",
+      "changelog-path": "changelog.md",
+      "label": "🤖 auto-release: pending",,
+      "release-label": "🤖 auto-release: tagged",
       "release-type": "node"
     }
-  },
-  "release-label": "🤖 auto-release: tagged"
+  }
 }
