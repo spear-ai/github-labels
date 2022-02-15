@@ -3,10 +3,13 @@
   "group-pull-request-title-pattern": "chore: release ${version}",
   "packages": {
     ".": {
-      "changelog-path": "changelog.md",
-      "label": "🤖 auto-release: pending",
-      "release-label": "🤖 auto-release: tagged",
-      "release-type": "node"
+      "releaseType": "node",
+      "draft": true,
+      "prerelease": false,
+      "bumpMinorPreMajor": false,
+      "bumpPatchForMinorPreMajor": false,
+      "changelogPath": "changelog.md",
+      "versioning": "default"
     }
   }
 }
