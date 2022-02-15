@@ -1,0 +1,5 @@
+{
+  "changelog-path": "changelog.md",
+  "draft": true,
+  "release-type": "node"
+}
