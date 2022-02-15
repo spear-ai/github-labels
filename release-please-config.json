@@ -1,9 +1,11 @@
 {
   "draft": true,
+  "draft-pull-request": true,
   "packages": {
     ".": {
       "changelog-path": "changelog.md",
       "draft": true,
+      "draft-pull-request": true,
       "label": "🤖 auto-release: pending B",
       "pull-request-title-pattern": "chore: release v${version}",
       "releaseLabel": "🤖 auto-release: tagged C",
