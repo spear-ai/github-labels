@@ -4,7 +4,7 @@
   "packages": {
     ".": {
       "changelog-path": "changelog.md",
-      "label": "🤖 auto-release: pending",,
+      "label": "🤖 auto-release: pending",
       "release-label": "🤖 auto-release: tagged",
       "release-type": "node"
     }
