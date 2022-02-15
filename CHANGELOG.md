@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0.0 (2022-02-15)
+## [1.2.0](https://github.com/spear-ai/github-labels/compare/github-labels-v1.1.0...github-labels-v1.2.0) (2022-02-15)
 
 
 ### Features
