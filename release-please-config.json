@@ -1,21 +1,16 @@
 {
   "draft": true,
-  "group-pull-request-title-pattern": "chore: release ${version} A",
-  "groupPullRequestTitlePattern": "chore: release ${version} B",
   "packages": {
     ".": {
       "changelog-path": "changelog.md",
       "label": "🤖 auto-release: pending B",
+      "pull-request-title-pattern": "chore: release v${version}",
       "releaseLabel": "🤖 auto-release: tagged C",
       "release-label": "🤖 auto-release: tagged A",
-      "release-type": "node",
-      "pull-request-title-pattern": "chore: release ${version} E",
-      "pullRequestTitlePattern": "chore: release ${version} F"
+      "release-type": "node"
     }
   },
   "label": "🤖 auto-release: pending A",
-  "pull-request-title-pattern": "chore: release ${version} C",
-  "pullRequestTitlePattern": "chore: release ${version} D",
   "releaseLabel": "🤖 auto-release: tagged A",
   "release-label": "🤖 auto-release: tagged B"
 }
