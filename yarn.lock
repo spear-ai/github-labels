@@ -1214,10 +1214,10 @@ escape-string-regexp@^4.0.0:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
-eslint-plugin-jsonc@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jsonc/-/eslint-plugin-jsonc-2.1.0.tgz#6b7fe6a5433695de2a39991d0d67b838718cd517"
-  integrity sha512-ueuFWW+u/hjU9+j5Ov+ZoWIukMlaWrB+MS/wfKYWqKkAVr7U9zYqUu4ZwLh2AHU3+FjvmS8+1Va5bP6J/ERVyg==
+eslint-plugin-jsonc@2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsonc/-/eslint-plugin-jsonc-2.2.1.tgz#82e3095565707e572be129d7fb86c026f52daa2e"
+  integrity sha512-ozGjWXhxF3ZfITHmRLuUL6zORh5Dzo0ymwVdxhfFaa4LEtU2S88JIwDYCWAifQLG92x7chqcnZlGUggaPSlfIQ==
   dependencies:
     eslint-utils "^3.0.0"
     jsonc-eslint-parser "^2.0.4"
