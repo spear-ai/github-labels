@@ -584,7 +584,7 @@ ajv-keywords@5.1.0:
   dependencies:
     fast-deep-equal "^3.1.3"
 
-ajv@8.10.0, ajv@^8.0.0:
+ajv@8.10.0:
   version "8.10.0"
   resolved "https://registry.yarnpkg.com/ajv/-/ajv-8.10.0.tgz#e573f719bd3af069017e3b66538ab968d040e54d"
   integrity sha512-bzqAEZOjkrUMl2afH8dknrq5KEk2SrwdBROR+vH1EKVQTqaUbJVPdc/gEdggTMM0Se+s+Ja4ju4TlNcStKl2Hw==
@@ -602,6 +602,16 @@ ajv@^6.10.0, ajv@^6.12.3, ajv@^6.12.4, ajv@^6.12.6:
     fast-deep-equal "^3.1.1"
     fast-json-stable-stringify "^2.0.0"
     json-schema-traverse "^0.4.1"
+    uri-js "^4.2.2"
+
+ajv@^8.0.0, ajv@^8.6.3:
+  version "8.11.0"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-8.11.0.tgz#977e91dd96ca669f54a11e23e378e33b884a565f"
+  integrity sha512-wGgprdCvMalC0BztXvitD2hC04YffAvtsUn93JbGXYLAtCUO4xd17mCCZQxUOItiBwZvJScWo8NIvQMQ71rdpg==
+  dependencies:
+    fast-deep-equal "^3.1.1"
+    json-schema-traverse "^1.0.0"
+    require-from-string "^2.0.2"
     uri-js "^4.2.2"
 
 ansi-regex@^2.0.0:
@@ -810,7 +820,7 @@ chalk@^2.0.0:
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
-chalk@^4, chalk@^4.0.0, chalk@^4.1.0, chalk@^4.1.2:
+chalk@^4.0.0, chalk@^4.1.0, chalk@^4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.2.tgz#aac4e2b7734a740867aeb16bf02aad556a1e7a01"
   integrity sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==
@@ -1544,13 +1554,14 @@ git-raw-commits@^2.0.0:
     split2 "^3.0.0"
     through2 "^4.0.0"
 
-github-label-sync@2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/github-label-sync/-/github-label-sync-2.0.2.tgz#0e4ca68393fdbb682924b8f9294528e9b8ab73e6"
-  integrity sha512-xDxlGG6s9LVfMNQexatne0bMUrwyYyTma9cC04b82zbEMFoy8rxSlag4eUYYF++ThMxvJp577Wk+uAv0mjRsNg==
+github-label-sync@2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/github-label-sync/-/github-label-sync-2.1.1.tgz#9d5475ffc965be29ba32f04e6577a885d3f83dbc"
+  integrity sha512-J+SCwI6VTrckVLNg03WrMHpn+C0TWyDwiHXymswDPmpjrUAay4Waoklv13YTSbaUMA+PaPRHHyCkrvv3y1P8hA==
   dependencies:
     "@financial-times/origami-service-makefile" "^7.0.3"
-    chalk "^4"
+    ajv "^8.6.3"
+    chalk "^4.1.2"
     commander "^6.2.1"
     got "^11.8.2"
     js-yaml "^3.14.1"
