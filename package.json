@@ -32,7 +32,7 @@
     "validate": "ajv validate -c ajv-keywords -d labels.json -s schema.json"
   },
   "dependencies": {
-    "github-label-sync": "2.0.2"
+    "github-label-sync": "2.2.0"
   },
   "devDependencies": {
     "@commitlint/cli": "16.2.1",
