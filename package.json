@@ -45,7 +45,7 @@
     "husky": "7.0.4",
     "npm-package-json-lint": "5.4.2",
     "npm-package-json-lint-config-default": "3.0.0",
-    "release-please": "13.4.9"
+    "release-please": "13.17.1"
   },
   "private": true
 }
