@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://github.com/spear-ai/github-labels/compare/github-labels-v1.1.0...github-labels-v1.2.0) (2022-06-06)
+
+
+### Features
+
+* add auto-release label ([bd029fd](https://github.com/spear-ai/github-labels/commit/bd029fdc97a12630f226610f74715d926ee77ba0))
+
+
+### Bug Fixes
+
+* fix label description ([#64](https://github.com/spear-ai/github-labels/issues/64)) ([2da7c9c](https://github.com/spear-ai/github-labels/commit/2da7c9c43defe3919bc5f973fa70bc681210f37c))
+
 ## [1.1.0](https://github.com/spear-ai/github-labels/compare/github-labels-v1.0.0...github-labels-v1.1.0) (2022-02-15)
 
 
