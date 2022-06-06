@@ -199,7 +199,7 @@
       "status: duplicate"
     ],
     "color": "221c22",
-    "description": "Was completed",
+    "description": "Won’t progress further because it’s a duplicate",
     "name": "🚦 status: duplicate"
   },
   {
