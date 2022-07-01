@@ -2727,10 +2727,10 @@ regexpp@^3.2.0:
   resolved "https://registry.yarnpkg.com/regexpp/-/regexpp-3.2.0.tgz#0425a2768d8f23bad70ca4b90461fa2f1213e1b2"
   integrity sha512-pq2bWo9mVD43nbts2wGv17XLiNLya+GklZ8kaDLV2Z08gDCsGpnKn9BFMepvWuHCbyVvY7J5o5+BVvoQbmlJLg==
 
-release-please@13.18.0:
-  version "13.18.0"
-  resolved "https://registry.yarnpkg.com/release-please/-/release-please-13.18.0.tgz#21a6b476dee01d4db8ca72d7c1fb3dfe93f8a1f8"
-  integrity sha512-ehmdhPIth05JdWmbCrIvvxhhuY9/uGJ7GeQ6g4MZDkka3Yraw/FpdbMHrMJbStDu3kFlEshgttrUiRzdPXBSSQ==
+release-please@13.19.0:
+  version "13.19.0"
+  resolved "https://registry.yarnpkg.com/release-please/-/release-please-13.19.0.tgz#d1c3422c3d7695ca6db356b398292bf95e677b49"
+  integrity sha512-0lf2Fzm25tiY9TRw1WSbSwy1CARu7MoRxTaqWb091B1ncHZEgPKX8EXc4XqMbE7+7FtwQgtTgGUSxtm91Rwo6Q==
   dependencies:
     "@conventional-commits/parser" "^0.4.1"
     "@iarna/toml" "^2.2.5"
