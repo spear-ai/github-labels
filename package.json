@@ -35,7 +35,7 @@
     "github-label-sync": "2.2.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.0.2",
+    "@commitlint/cli": "17.4.4",
     "@commitlint/config-conventional": "17.0.2",
     "ajv": "8.11.0",
     "ajv-cli": "5.0.0",
